@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employment Application Form</title>
+</head>
+<body bgcolor="skyblue">
+    <div style="width: 50%; margin: auto; background-color: white; padding: 20px;">
+        <h1 align="center"><u>Employment Application Form</u></h1><br>
+        <form>
+            <p><b>First Name:</b> <input type="text" name="first_name" style="width: 50%;"></p>
+            <p><b>Last Name:</b> <input type="text" name="last_name" style="width: 50%;"></p>
+            <p><b>Email:</b> <input type="email" name="email" style="width: 50%;"></p>
+            <p><b>Portfolio Website:</b> <input type="text" name="portfolio" placeholder="http://" style="width: 50%;"></p>
+            <p><b>Position You Are Applying For:</b> <input type="text" name="position" style="width: 50%;"></p>
+            <p>
+                <b>Salary Requirements:</b> <input type="text" name="salary" style="width: 45%;"><br><br>
+                <b>When Can You Start?</b> <input type="text" name="start_date" style="width: 45%;">
+            </p>
+            <p>
+                <b>Phone:</b> <input type="number" name="phone" style="width: 50%;"><br><br>
+                <b>Fax:</b> <input type="text" name="fax" style="width: 50%;">
+            </p>
+            <p>
+                <b>Are You Willing To Relocate?</b>
+                <input type="radio" id="yes" name="relocate" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="relocate" value="No">
+                <label for="no">No</label>
+                <input type="radio" id="not_sure" name="relocate" value="Not Sure">
+                <label for="not_sure">Not Sure</label>
+            </p>
+            <p><b>Last Company You Worked For:</b> <input type="text" name="last_company" style="width: 70%;"></p>
+            <p><b>Reference / Comments / Questions:</b></p>
+            <p><textarea name="comments" rows="5" cols="60"></textarea></p>
+            <p><input type="submit" value="Send Application"></p>
+        </form>
+    </div>
+</body>
+</html>
